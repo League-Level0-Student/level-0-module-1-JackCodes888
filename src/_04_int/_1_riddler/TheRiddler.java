@@ -25,9 +25,15 @@ public class TheRiddler {
 			JOptionPane.showMessageDialog(null,"Sorry, that is wrong the correct answer is a clock");
 		}
 		// 6. Add some more riddles
-
+		String answer2 = JOptionPane.showInputDialog(null,"Where does today come before yesterday");
+		if(answer2.equals("a dictionary")){
+			score += 1 ;
+		}
+		else {
+			JOptionPane.showMessageDialog(null, "Sorry, the answer was a dictionary");
+		}
 		// 2. Make a pop up to show the score.
-		
+		JOptionPane.showMessageDialog(null, "Your score was " +score+ " out of two.");
 	}
 }
 

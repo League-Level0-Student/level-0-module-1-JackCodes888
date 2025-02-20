@@ -16,6 +16,6 @@ void draw() {
     }
     if(mousePressed){
       bitten = true;
-      
+  
     }
 }
